@@ -64,6 +64,13 @@ void LinearSearch()
 }
 
 void display()
+{
+	cout << "\nArray elements are:\n";
+	for (i = 0; i < n; i++)
+		cout << arr[i] << " ";
+	cout << endl;
+}
+
 
 
 
